@@ -5,23 +5,23 @@ title: this title will be recognized by jekyll
 
 **your markdown texts should be placed under the yaml header**
 
-   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-            }
-        });
-    </script>
-    </head>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+          tex2jax: {
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+          }
+      });
+   </script>
+</head>
 
 
 ## Welcome to GitHub Pages
 
-
+$$ E=mc^2 $$
 
 You can use the [editor on GitHub](https://github.com/txctxc/txctxc.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
